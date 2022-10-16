@@ -1,0 +1,24 @@
+@startuml
+
+skinparam componentStyle uml2
+skinparam component {
+  BorderColor #grey
+  BackgroundColor #white
+}
+
+[Address] <<..address..>>
+[Customer] <<..customer..>>
+[Order] <<..order..>> #white/PowderBlue
+[Products] <<..product..>> #white/PowderBlue
+[Product Catalog] <<..catalog..>> as catalog #PowderBlue
+
+
+[Order] ---> [Customer] : is placed by
+[Order] --> [Products]
+
+[Customer] --> [Address]
+
+[Products] <--[#green]- catalog
+
+
+@enduml
