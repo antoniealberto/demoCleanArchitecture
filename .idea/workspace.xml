@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbb5924f-04ff-4955-a8b0-9ec2eecbfaf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/inputAPI/config/ConfigurationServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/inputAPI/instrumentation/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/logging/LoggingServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/repository/DeviceRepositoryQueryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/repository/DeviceRepositorySaveManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/bootstrap/SmartHouseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/DomainEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/HouseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/HouseSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Routine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/service/HouseManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/config/ConfigurationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/DashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/model/DeviceDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/model/DeviceForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/view/HomeDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/view/HomeDevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/logging/LoggingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/DeviceRepositoryDbQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/entities/DeviceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/GenericDbRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/web/dashboard_web_controller_class_dependency_diagram.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/devpractices/ProjectDevelopmentPracticesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/model/ApplicationLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/model/ApplicationPackages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/HexagonalArchitectureStyleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/LayeredDAOArchitectureStyleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/LayeredMVCArchitectureStyleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/uml/DashboardWebControllerClassDependencyUMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/config/ConfigurationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/DashboardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/controller/DashboardControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/logging/LoggingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/DeviceRepositoryDbQueryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/DeviceRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/class_diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/class_diagram.puml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/base/DescribedPredicate.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/core/domain/JavaClass.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/core/domain/properties/HasName.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/library/plantuml/rules/PlantUmlArchCondition.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FtHeVMTNXy0HMta3AldnjxobMG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aantonie\Documents\trainings\demoCleanArchitecture\src\main\java\edu\demo\cleanarchitecture\smarthouse\framework\apiAdapter" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.api.adapters.instrumentation" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.api.adapters.instrumentation.web.controller" />
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.spi.adapters.repository.db.repositories" />
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.api.adapters.instrumentation" />
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.spi.adapters.logging" />
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.spi.adapters.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.demo.cleanarchitecture.smarthouse.architecture.style" />
+      <recent name="edu.demo.cleanarchitecture.smarthouse.framework.api.adapters.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DashboardWebControllerClassDependencyUMLTest.classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram">
+    <configuration name="DashboardWebControllerClassDependencyUMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoCleanArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml" />
+      <option name="MAIN_CLASS_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml.DashboardWebControllerClassDependencyUMLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardWebControllerClassDependencyUMLTest.classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoCleanArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml" />
+      <option name="MAIN_CLASS_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.uml.DashboardWebControllerClassDependencyUMLTest" />
+      <option name="METHOD_NAME" value="classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectDevelopmentPracticesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoCleanArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices" />
+      <option name="MAIN_CLASS_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.ProjectDevelopmentPracticesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_Classes_Must_Not_Have_Public_Fields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoCleanArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices" />
+      <option name="MAIN_CLASS_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.ProjectDevelopmentPracticesTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:archunit]/[class:edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.ProjectDevelopmentPracticesTest]/[field:all_Classes_Must_Not_Have_Public_Fields]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classes_must_be_free_of_cycles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoCleanArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices" />
+      <option name="MAIN_CLASS_NAME" value="edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.ProjectDevelopmentPracticesTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:archunit]/[class:edu.demo.cleanarchitecture.smarthouse.architecture.devpractices.ProjectDevelopmentPracticesTest]/[field:classes_must_be_free_of_cycles]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DashboardWebControllerClassDependencyUMLTest.classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram" />
+        <item itemvalue="JUnit.DashboardWebControllerClassDependencyUMLTest" />
+        <item itemvalue="JUnit.ProjectDevelopmentPracticesTest" />
+        <item itemvalue="JUnit.all_Classes_Must_Not_Have_Public_Fields" />
+        <item itemvalue="JUnit.classes_must_be_free_of_cycles" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb5924f-04ff-4955-a8b0-9ec2eecbfaf2" name="Changes" comment="" />
+      <created>1665304559129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665304559129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/lang/ArchRule.class</url>
+          <line>180</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/lang/ArchRule.class</url>
+          <line>179</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/lang/ArchRule.class</url>
+          <line>129</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/lang/AbstractClassesTransformer.class</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/lang/AbstractClassesTransformer.class</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/uml/DashboardWebControllerClassDependencyUMLTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/tngtech/archunit/archunit/1.0.0/archunit-1.0.0.jar!/com/tngtech/archunit/library/plantuml/rules/PlantUmlArchCondition.class</url>
+          <line>147</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

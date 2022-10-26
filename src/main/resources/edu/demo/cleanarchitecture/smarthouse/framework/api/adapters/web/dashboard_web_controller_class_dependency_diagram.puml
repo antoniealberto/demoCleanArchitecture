@@ -1,0 +1,32 @@
+@startuml
+
+skinparam componentStyle uml2
+skinparam component {
+  BorderColor #grey
+  BackgroundColor #white
+}
+
+[ConfigurationServicePort] <<..config..>> #white/LightGreen
+[LoggingServicePort] <<..logging..>> #white/LightGreen
+[DeviceRepositoryQueryManager] <<..repository..>> #white/LightGreen
+[DashboardService] <<..instrumentation>> #Green
+[DashboardController] <<..web.controller..>> #PowderBlue
+[Device] <<..domain.model..>> #Green
+[DeviceDisplay] <<..web.model..>> #white/PowderBlue
+[HomeDevice] <<..web.view..>>  #white/LightYellow
+
+[DashboardController] --> [LoggingServicePort] : using
+[DashboardController] --> [DashboardService] : using
+[DashboardController] --> [DeviceDisplay] : using
+[DashboardController] --> [HomeDevice] : using
+[DashboardController] --> [Device] : using
+
+[DashboardService] --> [Device] : using
+[DashboardService] --> [ConfigurationServicePort] : using
+[DashboardService] --> [LoggingServicePort] : using
+[DashboardService] --> [DeviceRepositoryQueryManager] : using
+[DeviceRepositoryQueryManager] --> [Device] : using
+
+
+
+@enduml
