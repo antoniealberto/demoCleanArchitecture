@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb5924f-04ff-4955-a8b0-9ec2eecbfaf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/documentation/GoTech_2022_AntonieAlberto_SoftwareArchitecture-as-code-luxoft-27-Oct_CC.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/gotech_iterative_use_cases_diagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/gotech_iterative_use_cases_diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/gotech_iterative_use_cases_diagram.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

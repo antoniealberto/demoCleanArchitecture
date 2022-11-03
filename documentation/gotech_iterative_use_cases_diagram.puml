@@ -16,10 +16,12 @@ fontColor white
 :EventOrganizer: as EA #Purple
 :EventPartner: as EP  #Green
 actor PartnerBrandingTeam as EPB #Blue
-
+actor Participant as P #Gold
+actor :Speaker: as S #LightBlue
 
 EPB -up-|> EP
-EA <..> EPB : session content
+EA <..> EPB : session content #Blue
+EPB <..> S : presentation paper #Blue
 
 rectangle "go>tech" as GT #Purple {
 usecase (Manage Events's Venue Location) as ML
@@ -42,9 +44,14 @@ EA -right-> MV #Red
 EA -right-> MoP #Red
 EP .right.> MoP #Green
 EP .right.> PoE #Green
+P ..up..> MoP
+P ..up..> PoE
+P ..up..> PoS
 EPB ..up..> PoE
 EPB ..up..> MoP
-
+S ..left..> MoP
+S -left-> PoS #Blue
+S ..left..> PoE
 }
 
 @enduml
