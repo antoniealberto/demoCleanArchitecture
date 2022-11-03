@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb5924f-04ff-4955-a8b0-9ec2eecbfaf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/inputAPI/config/ConfigurationServicePort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/inputAPI/instrumentation/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/logging/LoggingServicePort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/repository/DeviceRepositoryQueryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/application/port/outputSPI/repository/DeviceRepositorySaveManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/bootstrap/SmartHouseApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/DomainEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/HouseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/HouseSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/Routine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/domain/service/HouseManagementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/config/ConfigurationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/DashboardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/model/DeviceDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/model/DeviceForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/view/HomeDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/view/HomeDevices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/logging/LoggingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/DeviceRepositoryDbQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/entities/DeviceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/DeviceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/GenericDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/web/dashboard_web_controller_class_dependency_diagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/devpractices/ProjectDevelopmentPracticesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/model/ApplicationLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/model/ApplicationPackages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/HexagonalArchitectureStyleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/LayeredDAOArchitectureStyleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/style/LayeredMVCArchitectureStyleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/architecture/uml/DashboardWebControllerClassDependencyUMLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/config/ConfigurationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/DashboardServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/api/adapters/instrumentation/web/controller/DashboardControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/logging/LoggingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/DeviceRepositoryDbQueryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/demo/cleanarchitecture/smarthouse/framework/spi/adapters/repository/db/repositories/DeviceRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/class_diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/class_diagram.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/GoTech_2022_AntonieAlberto_SoftwareArchitecture-as-code-luxoft-27-Oct_CC.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/gotech_iterative_use_cases_diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +71,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/aantonie/Documents/trainings/demoCleanArchitecture/documentation",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -145,7 +100,7 @@
       <recent name="edu.demo.cleanarchitecture.smarthouse.framework.api.adapters.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DashboardWebControllerClassDependencyUMLTest.classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram">
+  <component name="RunManager" selected="JUnit.ProjectDevelopmentPracticesTest">
     <configuration name="DashboardWebControllerClassDependencyUMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoCleanArchitecture" />
       <extension name="coverage">
@@ -230,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectDevelopmentPracticesTest" />
         <item itemvalue="JUnit.DashboardWebControllerClassDependencyUMLTest.classes_should_adhere_to_dashboard_web_controller_considering_only_dependencies_in_diagram" />
         <item itemvalue="JUnit.DashboardWebControllerClassDependencyUMLTest" />
-        <item itemvalue="JUnit.ProjectDevelopmentPracticesTest" />
         <item itemvalue="JUnit.all_Classes_Must_Not_Have_Public_Fields" />
         <item itemvalue="JUnit.classes_must_be_free_of_cycles" />
       </list>

@@ -1,0 +1,16 @@
+@startuml
+
+title GoTech 2022 Conference - Use Cases Diagram
+left to right direction
+skinparam actorStyle awesome
+skinparam usecase {
+backgroundColor OrangeRed
+fontColor white
+}
+skinparam rectangle {
+fontColor white
+}
+
+:EventOrganizer #Universum: as EA #Purple
+
+@enduml
