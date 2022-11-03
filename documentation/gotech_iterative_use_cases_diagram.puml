@@ -3,6 +3,7 @@
 title GoTech 2022 Conference - Use Cases Diagram
 left to right direction
 skinparam actorStyle awesome
+skinparam actorFontColor blue
 skinparam usecase {
 backgroundColor OrangeRed
 fontColor white
@@ -11,6 +12,28 @@ skinparam rectangle {
 fontColor white
 }
 
+
 :EventOrganizer #Universum: as EA #Purple
+
+rectangle "go>tech" as GT #Purple {
+usecase (Manage Events's Venue Location) as ML
+usecase (Manage Events's Partners) as MP
+usecase (Manage Events's Venues Exhibitors) as ME
+usecase (Manage Events's Content Stages) as MS
+usecase (Manage Events's Agenda Sessions) as MA
+usecase (Manage Events's Digital Headliners) as MH
+usecase (Manage Events's Participants) as MV
+usecase (Monitor Events's Online Platform) as MoP
+
+EA -right-> ML #Red
+EA -right-> MP #Red
+EA -right-> ME #Red
+EA -right-> MS #Red
+EA -right-> MA #Red
+EA -right-> MH #Red
+EA -right-> MV #Red
+EA -right-> MoP #Red
+
+}
 
 @enduml
