@@ -13,7 +13,13 @@ fontColor white
 }
 
 
-:EventOrganizer #Universum: as EA #Purple
+:EventOrganizer: as EA #Purple
+:EventPartner: as EP  #Green
+actor PartnerBrandingTeam as EPB #Blue
+
+
+EPB -up-|> EP
+EA <..> EPB : session content
 
 rectangle "go>tech" as GT #Purple {
 usecase (Manage Events's Venue Location) as ML
@@ -24,7 +30,8 @@ usecase (Manage Events's Agenda Sessions) as MA
 usecase (Manage Events's Digital Headliners) as MH
 usecase (Manage Events's Participants) as MV
 usecase (Monitor Events's Online Platform) as MoP
-
+usecase (Participate Event's  Exhibitions) as PoE
+usecase (Participate Event's Stage) as PoS
 EA -right-> ML #Red
 EA -right-> MP #Red
 EA -right-> ME #Red
@@ -33,6 +40,10 @@ EA -right-> MA #Red
 EA -right-> MH #Red
 EA -right-> MV #Red
 EA -right-> MoP #Red
+EP .right.> MoP #Green
+EP .right.> PoE #Green
+EPB ..up..> PoE
+EPB ..up..> MoP
 
 }
 
